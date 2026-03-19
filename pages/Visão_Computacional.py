@@ -41,7 +41,9 @@ output_bytes = output_video.read()
 
 treinamento_url = "https://www.youtube.com/watch?v=L23oIHZE14w"
 
-tab1, tab2, tab3 = st.tabs(["Input", "Output", "Treinamento de Modelo"])
+mapa_de_calor_url = "https://www.youtube.com/watch?v=K3CMPLp68fM"
+
+tab1, tab2, tab3, tab4 = st.tabs(["Input", "Output", "Treinamento de Modelo", "Mapa de Calor"])
 
 with tab1:
     st.video(input_bytes, autoplay=True, loop=True, muted=True)
@@ -51,3 +53,6 @@ with tab2:
     
 with tab3:
     st.video(treinamento_url, autoplay=True, muted=True)
+
+with tab4:
+    st.video(mapa_de_calor_url, autoplay=True, muted=True)

@@ -17,19 +17,6 @@ with st.sidebar:
 
     
     with st.container():
-        st.markdown("""
-            <style>
-                div.stImage{
-                    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.1), transparent);
-                    border-radius: 5px;
-                    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
-                    padding: 10px;
-                    width: 100px;
-                    height: 75px;
-                }
-            </style>
-        """, unsafe_allow_html=True)
-        col1, col2, col3, col4 = st.columns([1, 7, 7, 1])
     
         st.logo("./assets/img/Logos.png", size="large")
     
