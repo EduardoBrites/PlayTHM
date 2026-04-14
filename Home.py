@@ -23,7 +23,7 @@ with st.sidebar:
     home = st.Page("./Home.py", title="Home", icon=":material/home:")
     visao = st.Page("./pages/Visão_Computacional.py", title="Scout com Visão Computacional", icon=":material/eye_tracking:")
     saque = st.Page("./pages/Saque_Estático.py", title="Análise Postural - Saque", icon=":material/sports_tennis:")
-    saque2 = st.Page("./pages/Análise_Dinâmica.py", title="Análise Dinâmica - Fundamentos", icon=":material/construction:")
+    saque2 = st.Page("./pages/Análise_Dinâmica.py", title="Análise Dinâmica - Fundamentos", icon=":material/mystery:")
     mapa = st.Page("./pages/Mapa.py", title="Estudo de Mercado", icon=":material/map:")
     softwares = st.Page("./pages/Softwares.py", title="Estudo de Tecnologias", icon=":material/camera:")
     
