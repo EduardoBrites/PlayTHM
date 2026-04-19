@@ -1,2 +1,11 @@
-streamlit-folium
+streamlit
+pandas
+numpy
+openpyxl
 folium
+streamlit-folium
+plotly
+matplotlib
+scikit-learn
+scipy
+branca
