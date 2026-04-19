@@ -9,8 +9,17 @@ with st.sidebar:
             [data-testid="stSidebar"] {
                 background-color: #293473;
             }
+
             [data-testid="stSidebar"] * {
                 color: white !important;
+            }
+
+            /* sobrescreve os campos internos */
+            [data-testid="stSidebar"] input,
+            [data-testid="stSidebar"] [data-baseweb="select"] input,
+            [data-testid="stSidebar"] [data-baseweb="select"] span,
+            [data-testid="stSidebar"] [data-baseweb="select"] div {
+                color: rgb(23, 20, 94) !important;
             }
         </style>
     """, unsafe_allow_html=True)
@@ -25,7 +34,7 @@ with st.sidebar:
     saque = st.Page("./pages/Saque_Estático.py", title="Análise Postural - Saque", icon=":material/sports_tennis:")
     saque2 = st.Page("./pages/Análise_Dinâmica.py", title="Análise Dinâmica - Fundamentos", icon=":material/mystery:")
     mapa = st.Page("./pages/Mapa.py", title="Estudo de Mercado", icon=":material/map:")
-    softwares = st.Page("./pages/Softwares.py", title="Estudo de Tecnologias", icon=":material/camera:")
+    softwares = st.Page("./pages/Softwares.py", title="Estudo Científico-Tecnológico", icon=":material/camera:")
     
     pg = st.navigation({
         "Inteligência de Dados": [mapa, softwares],
